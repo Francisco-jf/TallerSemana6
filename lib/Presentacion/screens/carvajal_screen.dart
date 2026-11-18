@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class CounterScreen extends StatelessWidget {
-  const CounterScreen({super.key});
+class CarvajalScreen extends StatelessWidget {
+  const CarvajalScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('Hola Daniel Carvajal'),
+        child: Text('Hola Carvajal'),
       ),
     );
   }
