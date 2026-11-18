@@ -7,7 +7,13 @@ class CounterScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('Hola Daniel Carvajal'),
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text('Hola Daniel Carvajal'),
+            Text('Hola soy Fernando Boada'),
+          ],
+        ),
       ),
     );
   }
