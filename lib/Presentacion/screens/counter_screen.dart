@@ -7,7 +7,7 @@ class CounterScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       body: Center(
-        child: Text('Hola Carvajal'),
+        child: Text('Hola Daniel Carvajal'),
       ),
     );
   }
