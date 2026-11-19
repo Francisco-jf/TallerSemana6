@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:uni/Presentacion/screens/carvajal_screen.dart';
+import 'package:uni/Presentacion/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,9 +10,14 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CarvajalScreen(),
+      title: 'Taller Semana 6',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
+        useMaterial3: true,
+      ),
+      home: const HomeScreen(),
     );
   }
 }

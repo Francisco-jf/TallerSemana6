@@ -5,19 +5,15 @@ class CarvajalScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-<<<<<<< HEAD:lib/Presentacion/screens/counter_screen.dart
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Text('Hola Daniel Carvajal'),
-            Text('Hola soy Fernando Boada'),
-          ],
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Daniel Carvajal'),
+      ),
+      body: const Center(
+        child: Text(
+          'Hola Daniel Carvajal',
+          style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
         ),
-=======
-        child: Text('Hola Carvajal'),
->>>>>>> origin/main:lib/Presentacion/screens/carvajal_screen.dart
       ),
     );
   }
