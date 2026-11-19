@@ -11,7 +11,7 @@ Proyecto grupal para la materia de desarrollo móvil. El objetivo de la activida
 | **Juan Francisco Torres** | Hola, Juan Francisco Torres | `lib/Presentacion/screens/torres_screen.dart` |
 | **Nery Altamirano** | Hola Nery Altamirano | `lib/Presentacion/screens/altamirano_screen.dart` |
 | **Mateo Ortiz** | Hola Mateo Ortiz | `lib/Presentacion/screens/ortiz_screen.dart` |
-
+| **Franciasco Pérez** | Hola Francisco Pérez  | `lib/Presentacion/screens/perez_screen.dart` |
 ---
 
 ## Estructura de la Solución Unificada
